@@ -21,6 +21,7 @@
 #include <Arduino.h>
 #include "Ethernet.h"
 #include "utility/w5100.h"
+#include "ICMPPing.h"
 
 #ifdef ICMPPING_INSERT_YIELDS
 #define ICMPPING_DOYIELD()		delay(2)
